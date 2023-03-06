@@ -8,37 +8,45 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <div>
-        <header>
-            <nav>
-                <ul>
-                    <li><a href="#all">All</a></li>
-                    <li><a href="#photography">Photography</a></li>
-                    <li><a href="#sculpture">Sculpture</a></li>
-                </ul>
-            </nav>
-        </header>
-
-        <main>
-            <input type="button" id="back-button" value="<">
-            <section>
-                <h2>Britta Clay Art</h2>
-                <span>Sat, 24 October 2020</span>
-            </section>
-
-            <section>
-                <h2>Belgian Balloon Throphy</h2>
-                <span>Sat, 20 May 2020</span>
-            </section>
-
-            <section>
-                <h2>Way of the Hunt</h2>
-                <span>Fri, 14 August 2020</span>
-            </section>
-            <input type="button" id="forward-button" value=">">
-
-            <input type="button" value="View more">
-        </main>
+    <div class="container">
+        <div id="card">
+            <header>
+                <nav>
+                    <ul>
+                        <li><a href="#all">All</a></li>
+                        <li><a href="#photography">Photography</a></li>
+                        <li><a href="#sculpture">Sculpture</a></li>
+                    </ul>
+                </nav>
+            </header>
+    
+            <main>
+                <div>
+                    <input type="button" id="back-button" value="<">
+                    <section>
+                        <img src="bowl.jpg" alt="Image from https://www.leachpottery.com/studio_space">
+                        <h2>Britta Clay Art</h2>
+                        <span>Sat, 24 October 2020</span>
+                    </section>
+    
+                    <section>
+                        <img src="balloon.jpg" alt="Image from https://www.balloonevents.info/ballooning/24-belgium/all">
+                        <h2>Belgian Balloon Throphy</h2>
+                        <span>Sat, 20 May 2020</span>
+                    </section>
+    
+                    <section>
+                        <img src="place.jpg" alt="Image from https://www.mirror.co.uk/news/world-news/can-you-spot-climbers-picture-6757350">
+                        <h2>Way of the Hunt</h2>
+                        <span>Fri, 14 August 2020</span>
+                    </section>
+                    <input type="button" id="forward-button" value=">">
+                </div>
+    
+                <input type="button" value="View more">
+            </main>
+        </div>
     </div>
+    
 </body>
 </html>

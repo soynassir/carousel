@@ -1,0 +1,120 @@
+body {
+    background-color: rgb(242, 239, 230);
+}
+
+.container {
+    height: 98vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+div#card {
+    padding-top: 50px;
+    border-radius: 10px;
+    background-color: white;
+    width: 60%;
+    height: 60%;
+    box-shadow: 1px 1px 50px rgba(202, 98, 72, 0.397);
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+li {
+    margin: 10px;
+}
+
+a {
+    color: gray;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 10px;
+    /* border: 1px solid brown; */
+}
+
+a:hover {
+    color: black;
+    background-color: antiquewhite;
+}
+
+main {
+    padding: 30px 0;
+}
+
+main > div {
+    padding: 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+img {
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    width: 200px;
+    height: 150px;
+}
+
+section {
+    border: 1px solid rgb(203, 203, 203);
+    border-radius: 10px;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+}
+
+section:hover {
+    margin-top: -10px;
+    box-shadow: 10px 10px 10px gray;
+    cursor: pointer;
+}
+
+h2 {
+    font-size: 16px;
+    margin-bottom: -5px;
+}
+
+span {
+    font-size: 12px;
+    padding: 10px;
+    color: gray;
+}
+
+input#back-button, input#forward-button {
+    font-size: 30px;
+    color: gray;
+    border: none;
+    background: transparent;
+    
+}
+
+#back-button:hover, #forward-button:hover {
+    /* font-size: 35px; */
+    color: rgb(207, 92, 64);
+    cursor: pointer;
+}
+
+input[value="View more"] {
+    display: block;
+    text-align: center;
+    border: 1px solid white;
+    border-radius: 5px;
+    font-size: 14px;
+    color: aliceblue;
+    background-color: rgb(219, 110, 82);
+    padding: 10px 30px;
+    margin: 30px auto;
+    box-shadow: 1px 1px 10px rgba(202, 98, 72, 0.397);
+}
+
+input[value="View more"]:hover {
+    cursor: pointer;
+    border: 1px solid rgb(219, 110, 82);
+    background-color: transparent;
+    color: rgb(207, 92, 64);
+}
